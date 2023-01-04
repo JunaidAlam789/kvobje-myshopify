@@ -24,6 +24,7 @@ function Hero (props) {
   return (
     <div className={container}>
       <h1 className={intro}>Welcome to the GatsbyJS + Shopify Demo Store.</h1>
+      <h3 className={intro}>Powered by KvobjeSoft</h3>
       {!!process.env.GATSBY_DEMO_STORE && (
         <>
           <p className={callOut}>
